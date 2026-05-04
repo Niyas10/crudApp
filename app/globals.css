@@ -1,3 +1,30 @@
 @import "tailwindcss";
 
 
+.containers {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Mobile: 320px - 767px */
+@media (min-width: 320px) and (max-width: 767px) {
+  .containers {
+    max-width: 100%;
+  }
+}
+
+/* Tablet: 768px - 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .containers {
+    max-width: 720px;
+  }
+}
+
+/* Desktop: 1024px and above */
+@media (min-width: 1024px) {
+  .containers {
+    max-width: 1200px;
+  }
+}
