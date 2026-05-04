@@ -1,4 +1,4 @@
-import ProductList from '@/components/homepage/ProductList'
+import ProductList from '@/components/homePage/ProductList'
 import Footer from '@/components/layouts/Footer'
 import Header from '@/components/layouts/Header'
 import React from 'react'
