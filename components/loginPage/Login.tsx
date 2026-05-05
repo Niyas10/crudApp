@@ -23,7 +23,7 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+    <div className="min-h-screen  flex items-center justify-center">
       <div className="bg-white border border-gray-200 rounded-2xl p-8 w-full max-w-sm">
         <h1 className="text-xl font-semibold text-gray-900 text-center mb-1">
           Sign in
@@ -57,7 +57,7 @@ const Login = () => {
 
           {error && <p className="text-red-500 text-[12px] mb-3">{error}</p>}
 
-          <button className="w-full cursor-pointer  bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium py-2 rounded-lg transition-colors">
+          <button className="w-full cursor-pointer  bg-[#647FBC] hover:bg-[#647FBC] text-white text-sm font-medium py-2 rounded-lg transition-colors">
             Sign in
           </button>
         </form>
